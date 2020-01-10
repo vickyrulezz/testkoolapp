@@ -811,7 +811,7 @@ app.get('/get_women_products',function(req, res) {
     });
 
 app.get("/filterbybrand", function (req, res) {
-    res.sendFile('shop.html', { root : VIEWS });
+    //res.sendFile('shop.html', { root : VIEWS });
         brandFilter = req.body.survey;
         sortParam = req.body.optSort;
         optSortValue1 = req.body.opt1;
