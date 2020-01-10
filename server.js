@@ -814,7 +814,7 @@ app.get("/filterbybrand", function (req, res) {
     //res.sendFile('shop.html', { root : VIEWS });
         brandFilter = req.query.survey;
         sortParam = req.param.optSort;
-        optSortValue1 = eq.param.survey;
+        optSortValue1 = req.param.survey;
         //searchParam = req.query.txtSearch;
         console.log(brandFilter+'---'+sortParam+'---'+optSortValue1);
 
