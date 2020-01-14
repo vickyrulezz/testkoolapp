@@ -817,7 +817,6 @@ app.get("/filterbybrand", function (req, res) {
         optSortValue1 = req.param.survey;
         //searchParam = req.query.txtSearch;
         console.log(brandFilter+'---'+sortParam+'---'+optSortValue1);
-
       });
 
 
